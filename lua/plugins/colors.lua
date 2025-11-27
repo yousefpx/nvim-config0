@@ -4,9 +4,10 @@ end
 
 return {
     {
-	"folke/tokyonight.nvim",
+	--"folke/tokyonight.nvim",
+	   'shaunsingh/nord.nvim', 
 	config = function()
-	    vim.cmd.colorscheme "tokyonight"
+	    vim.cmd.colorscheme "nord"
 	    enable_transparency()
 	end
     },
@@ -16,7 +17,7 @@ return {
 	    "nvim-tree/nvim-web-devicons",
 	},
 	opts = {
-	    theme = 'tokyonight',
+	    theme = 'nord',
 	}
     },
 }
